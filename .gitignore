@@ -1,0 +1,34 @@
+# python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+build/
+dist/
+
+# toolkit artifacts
+*.log
+logs/
+backups/
+snapshots/
+*.bak
+*.dmp
+
+# native helper build output
+src-native/bin/
+src-native/obj/
+*.pdb
+*.ilk
+
+# editor / os
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+
+# local config
+config/local.toml
+config/*.secret.toml
