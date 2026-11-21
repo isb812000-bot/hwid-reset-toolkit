@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <rect width="256" height="256" fill="#0a0f14"/>
+  <!-- fractured hex chip outline left half -->
+  <polygon points="128,36 96,54 64,72 64,108 64,144 96,162 128,180" fill="none" stroke="#39ff14" stroke-width="4" stroke-linejoin="miter"/>
+  <!-- fractured hex chip outline right half, shifted and split -->
+  <polygon points="136,44 168,62 200,80 200,116 200,152 168,170 136,188" fill="none" stroke="#39ff14" stroke-width="4" stroke-linejoin="miter" opacity="0.85"/>
+  <!-- fracture gap diagonal lightning bolt -->
+  <polyline points="120,50 132,92 116,120 140,164 128,206" fill="none" stroke="#ff2e63" stroke-width="5" stroke-linejoin="miter" stroke-linecap="square"/>
+  <!-- circuit traces on left half -->
+  <polyline points="64,90 48,90 48,74 32,74" fill="none" stroke="#39ff14" stroke-width="3" stroke-linecap="square"/>
+  <polyline points="64,126 44,126 44,142 28,142" fill="none" stroke="#39ff14" stroke-width="3" stroke-linecap="square"/>
+  <polyline points="96,54 96,38 84,38" fill="none" stroke="#e8f1f2" stroke-width="2.5" stroke-linecap="square" opacity="0.7"/>
+  <polyline points="96,162 96,178 82,178" fill="none" stroke="#e8f1f2" stroke-width="2.5" stroke-linecap="square" opacity="0.7"/>
+  <!-- circuit traces on right half -->
+  <polyline points="200,98 216,98 216,82 232,82" fill="none" stroke="#39ff14" stroke-width="3" stroke-linecap="square"/>
+  <polyline points="200,134 220,134 220,150 236,150" fill="none" stroke="#39ff14" stroke-width="3" stroke-linecap="square"/>
+  <polyline points="168,62 168,46 182,46" fill="none" stroke="#e8f1f2" stroke-width="2.5" stroke-linecap="square" opacity="0.7"/>
+  <polyline points="168,170 168,186 184,186" fill="none" stroke="#e8f1f2" stroke-width="2.5" stroke-linecap="square" opacity="0.7"/>
+  <!-- reset arrow sweeping over the fracture -->
+  <path d="M 178 68 A 62 62 0 0 0 78 68" fill="none" stroke="#e8f1f2" stroke-width="4" stroke-linecap="square"/>
+  <polygon points="78,68 70,52 88,56" fill="#e8f1f2"/>
+  <path d="M 76 188 A 62 62 0 0 0 176 188" fill="none" stroke="#e8f1f2" stroke-width="4" stroke-linecap="square"/>
+  <polygon points="176,188 184,204 166,200" fill="#e8f1f2"/>
+  <!-- glitch accent bars -->
+  <rect x="100" y="104" width="18" height="3" fill="#ff2e63" opacity="0.9"/>
+  <rect x="138" y="116" width="22" height="3" fill="#ff2e63" opacity="0.7"/>
+  <rect x="112" y="136" width="14" height="3" fill="#ff2e63" opacity="0.8"/>
+  <rect x="146" y="96" width="10" height="3" fill="#39ff14" opacity="0.9"/>
+  <rect x="94" y="118" width="8" height="3" fill="#39ff14" opacity="0.7"/>
+  <!-- chip core nodes -->
+  <rect x="118" y="112" width="20" height="20" fill="#0a0f14" stroke="#e8f1f2" stroke-width="2"/>
+  <rect x="124" y="118" width="8" height="8" fill="#39ff14"/>
+  <!-- corner glitch pixels -->
+  <rect x="32" y="32" width="6" height="6" fill="#39ff14"/>
+  <rect x="218" y="218" width="6" height="6" fill="#ff2e63"/>
+  <rect x="218" y="32" width="4" height="4" fill="#39ff14" opacity="0.6"/>
+  <rect x="34" y="220" width="4" height="4" fill="#ff2e63" opacity="0.6"/>
+</svg>
