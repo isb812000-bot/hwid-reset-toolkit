@@ -1,0 +1,20 @@
+# default runtime config for hwid-reset-toolkit
+[app]
+name = "hwid-reset-toolkit"
+version = "0.9.4"
+require_admin = true
+
+[spoof]
+backup_before_write = true
+restore_point = true
+randomize_seed = true
+dry_run = false
+
+[targets]
+# adapters enabled by default; edit to match your library
+enabled = ["fortnite", "valorant", "cs2", "apex"]
+
+[paths]
+backup_dir = "backups"
+snapshot_dir = "snapshots"
+log_dir = "logs"
